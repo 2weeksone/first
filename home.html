@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지 만들기</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/32e110bbd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+
+body {
+  height: 100%;
+
+
+background-color: black;
+color:white;
+  
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 5fr 80PX 2fr;
+    
+   
+}
+
+h2{
+    margin-top:350px ;
+    font-size:30px
+}
+
+
+
+      img{
+          margin-top:150px;
+          margin-left:80px;
+      }
+
+      h4{
+          margin-left:76px;
+          font-family: sans-serif;
+         font-weight: 100;
+         line-height: 30PX;
+         letter-spacing: 2px;
+         
+      }
+
+
+
+      H1{
+          font-style:italic;
+          font-size:50PX;
+          margin-left:80px;
+          font-family:sans-serif;
+      }
+
+      h2{
+          font-style:italic;
+          font-family:sans-serif;
+          margin-left: 105px;
+          margin-top: 365px;
+      }
+
+    
+     p{
+         WIDTH: 150px;
+         HEIGHT:150PX;
+         background-color: white;
+         color:black;
+        MARGIN:15PX;
+         padding-TOP:70PX;
+         padding-bottom: 20PX;
+         padding-left: 30PX;
+         padding-right:30px;
+         font-family: sans-serif;
+         font-weight: 800;
+         font-size: 20PX;
+         font-style:italic;
+       float:left;
+       line-height: 30PX;
+       text-align: center;
+       
+         
+     }
+     NAV{
+         MARGIN-LEFT:62PX;
+     }
+     
+h3{
+    color:white
+}
+
+
+
+
+input:nth-child(2){
+width: 295px;
+height:35px;
+border-radius: 20px;
+font-style:italic;
+font-size: 15px;
+padding-left: 40px;
+
+    
+}
+
+i{
+  color:gray;
+  position:relative;
+  top:30px;
+  right:-18px;
+  font-size: 13px;
+}
+
+input:nth-child(3){
+width: 295px;
+height:35px;
+border-radius: 20px;
+margin-top:10px;
+font-style:italic;
+font-size: 13px;
+padding-left:40px;
+
+    
+}
+
+
+
+button{
+height:35px;
+border-radius: 20px;
+WIDTH:205PX;
+    margin-left: 35Px;
+    margin-top:25px;
+    background-color: orange;
+    margin-left: 70px;
+    color:white;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+    </style>
+
+  
+</head>
+<body>
+  
+    
+    <div class="grid">
+        <div class="left">
+<img src="likelion.png" width="150px">
+<h1>LIKE LION</h1>
+<h4>우리는 '성장 의지를 가진 사람들을 돕기 위해' 존재합니다. 그리고
+    이들을 돕기 위한 가장 근본적<BR>이고 효과적인 방법은 교육이라고 생각합니다.
+</h4>
+<h4 >
+    지금 바로 지원하세요!
+</h4>
+
+<NAV>
+<p>DESIGN<BR>&<BR>PLAN</p>
+<p>FRONTEND</p>
+<p>BACKEND</p>
+</NAV>
+        </div>
+<div class="right">
+<h2>LOGIN</h2>
+
+    <div>
+        <i class="fa-solid fa-user-large"></i>
+<input placeholder="ID">
+</div>
+<div>
+    <i class="fa-solid fa-lock"></i>
+<input placeholder="PW">
+</div>
+<button>로그인 후 지원하기</button>
+</div>
+</div>
+</body>
+</html>
